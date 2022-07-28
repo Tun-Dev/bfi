@@ -1,0 +1,95 @@
+$LibreB-Reg: "Libre Baskerville Reg";
+$LibreB-Bold: "Libre Baskerville Bold";
+$DMSans-Reg: "DM Sans";
+
+.contactcon {
+    height: 345px;
+    background: rgba(255, 248, 237, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .inner {
+        width: 80%;
+        margin: 0 auto;
+        // border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                margin: 0;
+                font-family: $DMSans-Reg;
+                font-size: 48px;
+                color: rgba(255, 186, 83, 1);
+            }
+
+            p {
+                font-family: $DMSans-Reg;
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                max-width: 706px;
+                letter-spacing: -0.05em;
+                // flex-wrap: wrap;
+
+                span {
+                    color: rgba(255, 186, 83, 1);
+                }
+            }
+        }
+
+
+        .right {
+
+            width: 550px;
+            height: 189px;
+            background: rgba(255, 186, 83, 1);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .input-body {
+                display: flex;
+                width: 90%;
+                // max-width: 486px;
+                height: 61px;
+                background: white;
+                border-radius: 7px;
+                align-items: center;
+
+                input {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width: 75%;
+                    // width: 364px;
+                    height: 41px;
+                    border: none;
+                    font-family: $DMSans-Reg;
+                    font-size: 16px;
+                    outline: none;
+                }
+
+                button {
+                    width: 102px;
+                    height: 41px;
+                    border-radius: 7px;
+                    margin-right: 10px;
+                    font-size: 14px;
+                    font-family: $DMSans-Reg;
+                    font-weight: 500;
+                    border: none;
+                    background: rgba(255, 186, 83, 1);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

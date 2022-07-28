@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+
+@font-face {
+  font-family: "Libre Baskerville Reg";
+  src: url("./fonts/libre-baskerville.regular.ttf");
+}
+
+@font-face {
+  font-family: "Libre Baskerville Bold";
+  src: url("./fonts/libre-baskerville.bold.ttf");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("./fonts/DMSans-Regular.ttf");
+}
+
+
+$LibreB-Reg: "Libre Baskerville Reg";
+$LibreB-Bold: "Libre Baskerville Bold";
+$DMSans-Reg: "DM Sans";
+
+
+
+html body {
+  margin: 0;
+  // padding: 0;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  scroll-behavior: smooth;
+  // height: 100%;
+  transition: 0.3s;
+  font-family: $LibreB-Reg;
+  font-weight: 400;
+  // background-color: #E2E1CA;
+  // cursor: none;
+}
+
+
+body>iframe {
+  display: none !important;
+}

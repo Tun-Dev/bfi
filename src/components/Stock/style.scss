@@ -1,0 +1,43 @@
+$LibreB-Reg: "Libre Baskerville Reg";
+$LibreB-Bold: "Libre Baskerville Bold";
+$DMSans-Reg: "DM Sans";
+
+.stockcon {
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+
+    .inner {
+        // border: 1px solid red;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin: 0;
+            margin-bottom: 86px;
+            font-family: $DMSans-Reg;
+            font-size: 32px;
+            font-weight: 500;
+
+        }
+
+        .images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            // border: 1px solid red;
+
+            img {
+                // border: 1px solid black;
+                // width: 100%;
+                // height: auto;
+            }
+        }
+    }
+}
